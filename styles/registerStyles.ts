@@ -1,0 +1,107 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+    backgroundColor: '#f8eff8',
+  },
+  scrollContainer: {
+    flexGrow: 1,
+    paddingHorizontal: 20,
+    paddingBottom: 40,
+  },
+  backButton: {
+    marginTop: 10,
+    marginBottom: 10,
+    width: 40,
+    height: 40,
+    justifyContent: 'center',
+  },
+  title: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    color: '#870992',
+    textAlign: 'center',
+    marginBottom: 30,
+  },
+  form: {
+    backgroundColor: '#fff',
+    borderRadius: 15,
+    padding: 20,
+    borderWidth: 1,
+    borderColor: '#f0bbf5',
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+  },
+  inputGroup: {
+    marginBottom: 15,
+  },
+  input: {
+    borderBottomWidth: 1.5,
+    borderBottomColor: '#870992',
+    paddingVertical: 12,
+    fontSize: 16,
+    color: '#333',
+    marginBottom: 20,
+  },
+  passwordWrapper: {
+    position: 'relative',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  inputPassword: {
+    flex: 1,
+    borderBottomWidth: 1,
+    borderBottomColor: '#f0bbf5',
+    paddingVertical: 10,
+    fontSize: 16,
+  },
+  eyeIcon: {
+    position: 'absolute',
+    right: 0,
+    padding: 10,
+  },
+  checkboxContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 15,
+    marginBottom: 25,
+  },
+  checkbox: {
+    width: 22,
+    height: 22,
+    borderWidth: 1,
+    borderColor: '#870992',
+    borderRadius: 5,
+    marginRight: 12,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+  },
+  checkboxChecked: {
+    backgroundColor: '#870992',
+  },
+  checkboxLabel: {
+    fontSize: 13,
+    color: '#5c1c5c',
+    flex: 1,
+    lineHeight: 18,
+  },
+  submitButton: {
+    backgroundColor: '#870992',
+    paddingVertical: 16,
+    borderRadius: 10,
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  submitButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+    textTransform: 'uppercase',
+    letterSpacing: 1,
+  },
+});
