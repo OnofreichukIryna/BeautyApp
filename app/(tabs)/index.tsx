@@ -54,12 +54,12 @@ const mockCategories = [
 
 export default function HomePage() { 
   const router = useRouter(); 
-  const { addToCart } = useCart(); // Прибрали viewedItems
+  const { addToCart } = useCart();
   const fadeAnim = useRef(new Animated.Value(0)).current;
 
   const showToast = () => {
     Animated.sequence([
-      Animated.timing(fadeAnim, { toValue: 1, duration: 300, useNativeDriver: false }), // false для кращої сумісності
+      Animated.timing(fadeAnim, { toValue: 1, duration: 300, useNativeDriver: false }),
       Animated.delay(1500), 
       Animated.timing(fadeAnim, { toValue: 0, duration: 300, useNativeDriver: false })
     ]).start();

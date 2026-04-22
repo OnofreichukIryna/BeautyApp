@@ -14,7 +14,7 @@ export default function ProductPage() {
   const fadeAnim = useRef(new Animated.Value(0)).current;
 
   const mockDetails = {
-    description: 'Gives a natural sun-kissed effect.',
+    description: 'Gives a natural sun-kissed effect',
     brand: 'Guerlain',
     country: 'France',
     type: 'bronzer',
@@ -86,7 +86,7 @@ export default function ProductPage() {
         ]}
       >
         <Feather name="check-circle" size={20} color="#fff" />
-        <Text style={styles.toastText}>Додано у кошик!</Text>
+        <Text style={styles.toastText}>Додано у кошик</Text>
       </Animated.View>
 
     </SafeAreaView>

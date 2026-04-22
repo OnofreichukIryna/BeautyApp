@@ -13,7 +13,7 @@ type CartContextType = {
   addToCart: (item: Omit<CartItem, 'qty'>) => void;
   removeFromCart: (id: string) => void;
   updateQty: (id: string, delta: number) => void;
-  clearCart: () => void; // НОВЕ: функція для очищення
+  clearCart: () => void;
   totalSum: number;
 };
 

@@ -125,7 +125,7 @@ export default function CatalogPage() {
 
       <Animated.View style={[styles.toastContainer, { opacity: fadeAnim }]} pointerEvents="none">
         <Feather name="check-circle" size={20} color="#fff" />
-        <Text style={styles.toastText}>Додано у кошик!</Text>
+        <Text style={styles.toastText}>Додано у кошик</Text>
       </Animated.View>
 
       <Modal visible={isModalVisible} animationType="slide" transparent={true} onRequestClose={() => setModalVisible(false)}>
