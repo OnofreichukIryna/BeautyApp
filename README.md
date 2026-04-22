@@ -32,4 +32,5 @@
 
 1. Клонуйте репозиторій:
    ```bash
-   git clone [https://github.com/OnofreichukIryna/BeautyApp.git](https://github.com/OnofreichukIryna/BeautyApp.git)
+   git clone https://github.com/OnofreichukIryna/BeautyApp.git
+   
