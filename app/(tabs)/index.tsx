@@ -146,7 +146,7 @@ export default function HomePage() {
 
       <Animated.View style={[styles.toastContainer, { opacity: fadeAnim }]} pointerEvents="none">
         <Feather name="check-circle" size={18} color="#fff" />
-        <Text style={styles.toastText}>Додано у кошик!</Text>
+        <Text style={styles.toastText}>Додано у кошик</Text>
       </Animated.View>
 
     </SafeAreaView>
